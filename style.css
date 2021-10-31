@@ -106,6 +106,16 @@ body{
     font-size: 69px;
 }
 
+.modal-text{
+  font-size:4em; 
+}
+
+ .modal-text2{
+   font-size: 3rem;
+ }  
+
+/* media queries for other devices  */
+
 @media only screen and (max-width: 600px){
 	#bs-button{
     font-size: 29px;
@@ -120,4 +130,17 @@ body{
     font-size: 40px;
     
   }
+}
+
+@media only screen and (max-width: 399px){
+
+ .modal-text{
+   font-size: 2rem;
+ }
+
+ .modal-text2{
+   font-size: 2rem;
+ }
+
+
 }
