@@ -116,6 +116,8 @@ body{
 
 /* media queries for other devices  */
 
+
+
 @media only screen and (max-width: 600px){
 	#bs-button{
     font-size: 29px;
@@ -142,5 +144,16 @@ body{
    font-size: 2rem;
  }
 
-
 }
+
+@media only screen and (max-width: 605px){
+
+  .modal-text{
+    font-size: 2rem;
+  }
+ 
+  .modal-text2{
+    font-size: 2rem;
+  }
+ 
+ }
